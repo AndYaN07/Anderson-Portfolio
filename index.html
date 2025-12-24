@@ -146,6 +146,7 @@
             type="text"
             id="nombre"
             name="nombre"
+            required
             placeholder="Aquí va tu nick"
           />
           <label for="email">Correo Electrónico</label>
@@ -153,15 +154,18 @@
             type="email"
             name="email"
             id="email"
-            placeholder="YodaSerYo@SerMiMail.galaxy"
+            required
+            placeholder="YodaSerYo@StarMail.com"
           />
           <label for="mensaje">Mensaje</label>
           <textarea
             name="mensaje"
             id="mensaje"
+            required
             placeholder="Ingresa el código secreto que quieres transmitir"
             rows="5"
           ></textarea>
+          <input type="text" name="_gotcha" style="display:none">
           <button type="submit">Enviar lechuza</button>
           <button type="reset">Obliviate</button>
         </form>
