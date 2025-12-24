@@ -25,7 +25,7 @@ Dado que este proyecto evolucionará conmigo, tengo planeadas las siguientes act
 ## 🔗 Despliegue
 
 Puedes ver la versión en vivo del portfolio aquí:
-[Enlace a tu GitHub Pages o Netlify]
+https://andyan07.github.io/Anderson-Portfolio
 
 ---
 © 2025 Anderson Guanche.
