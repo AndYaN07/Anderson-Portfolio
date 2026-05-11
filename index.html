@@ -1,162 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="shortcut icon"
-      href="https://res.cloudinary.com/djlpirwkr/image/upload/w_50,h_50/v1763312265/icon_yrjaqg.png"
-      type="image/png"
-    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio web personal que exhibe proyectos de desarrollo. Maquetado con HTML5 y CSS3, implementando diseño responsive, Flexbox y CSS Grid para una estructura moderna y accesible."
+      content="Anderson Guanche — Full Stack Developer especializado en rendimiento, optimización de sistemas legacy y arquitectura escalable. PHP, Vue 3, PostgreSQL, JavaScript, Node."
     />
     <meta
       name="keywords"
-      content="portfolio, desarrollo web, maquetación, HTML5, CSS3, responsive design, Flexbox, CSS Grid, proyecto Master, accesibilidad, semántica web"
+      content="Anderson Guanche, Full Stack Developer, optimización, PHP, Vue3, PostgreSQL, JavaScript, Node, portfolio, desarrollo web"
     />
     <meta name="author" content="Anderson Guanche" />
-    <title>Anderson Guanche | El mapa del desarrollador</title>
+
+    <meta
+      property="og:title"
+      content="Anderson Guanche | Full Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="Especializado en rendimiento, optimización de sistemas legacy y arquitectura escalable."
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/djlpirwkr/image/upload/w_1200,f_auto,q_auto/v1763312265/icon_yrjaqg.png"
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Anderson Guanche | Full Stack Developer</title>
+
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/djlpirwkr/image/upload/w_32,h_32/v1763312265/icon_yrjaqg.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://res.cloudinary.com/djlpirwkr/image/upload/w_180,h_180/v1763312265/icon_yrjaqg.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header id="inicio">
-      <h1>Anderson Guanche</h1>
+    <!-- HEADER -->
+    <header id="inicio" role="banner">
+      <div class="header-brand">
+        <h1 class="hero-title">
+          <span>Anderson | Full Stack</span>
+          <span>Developer &</span>
+          <span>Performance Optimizer</span>
+        </h1>
+      </div>
+
       <img
-        src="https://res.cloudinary.com/djlpirwkr/image/upload/w_900,f_auto,q_auto/v1763312265/icon_yrjaqg.png"
-        alt="Logotipo personal Anderson Guanche"
+        src="https://res.cloudinary.com/djlpirwkr/image/upload/w_340,f_auto,q_auto/v1763312265/icon_yrjaqg.png"
+        alt="Logotipo personal de Anderson Guanche"
+        width="170"
+        height="170"
+        loading="eager"
+        fetchpriority="high"
       />
-      <nav>
+
+      <nav aria-label="Navegación principal">
         <ul>
-          <li><a href="#origen">Mi Origen</a></li>
+          <li><a href="#origen">Perfil</a></li>
+          <li><a href="#logro-maestro">Logro Maestro</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="origen">
-        <h2>Mi Origen: Del Asfalto al Código Fuente</h2>
+
+    <main id="main-content">
+      <!-- PERFIL -->
+      <section id="origen" aria-labelledby="origen-title">
+        <h2 id="origen-title">Perfil Profesional</h2>
         <p>
-          Actualmente me encuentro en la fase de
-          <strong>Junior Developer</strong>, consolidando mi
-          <strong>transición profesional</strong> desde un sector que exige
-          rigor y logística: el
-          <strong>transporte de mercancías por carretera</strong>. Esta
-          trayectoria, aunque distante del código, ha sido mi
-          <strong>campo de entrenamiento</strong> más valioso.
+          Desarrollador enfocado en el rendimiento y la eficiencia del software.
+          Mi prioridad no es solo que el código funcione, sino que sea
+          mantenible y capaz de escalar. Me especializo en modernizar lógica de
+          negocio y optimizar el acceso a datos, transformando cuellos de
+          botella técnicos en experiencias de usuario fluidas.
         </p>
-        <p>Las habilidades transferidas al desarrollo web incluyen:</p>
-        <ul>
-          <li>
-            <strong>Planificación de Rutas:</strong> Aplicada a la arquitectura
-            y organización de proyectos.
-          </li>
-          <li>
-            <strong>Resolución Inmediata de Incidencias:</strong> Esencial para
-            un <i>debugging</i> rápido y eficiente.
-          </li>
-          <li>
-            <strong>Manejo de la Disciplina a Largo Plazo:</strong> Base de la
-            perseverancia y el aprendizaje continuo en <i>Tech</i>.
-          </li>
+        <p>
+          Me gusta abrir el capó de las aplicaciones para entender qué pasa por
+          dentro. Mi objetivo es que, cuando alguien use lo que he programado,
+          ni siquiera note que estoy ahí porque todo va rápido y sin errores. Me
+          centro en que el código de hoy no sea un dolor de cabeza mañana.
+        </p>
+
+        <!-- Stack tecnológico -->
+        <ul class="tech-stack" aria-label="Tecnologías principales">
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>Hibernate</li>
+          <li>Node</li>
+          <li>PostgreSQL</li>
+          <li>Prisma</li>
+          <li>MySQL</li>
+          <li>PHP</li>
+          <li>Vue 3</li>
+          <li>JavaScript</li>
+          <li>Docker</li>
         </ul>
-        <p>
-          Soy un <strong>apasionado de la tecnología</strong> y el aprendizaje
-          continuo. Abordo cada proyecto con la mentalidad de que
-          <strong>ningún desafío es imposible de <i>debuggear</i></strong
-          >; solo se necesita el
-          <strong>algoritmo de solución correcto</strong>... y a veces, un
-          <strong>martillo</strong> (lingüístico) más grande.
-        </p>
       </section>
-      <section id="proyectos">
-        <h2>Proyectos | El Archivero de Código</h2>
-        <p>
-          Una muestra de los proyectos que definen mi
-          <strong>ruta de desarrollo</strong>. Demuestro el uso de tecnologías
-          clave, desde el rigor de la base de datos hasta la arquitectura
-          front-end.
-        </p>
-        <div class="galeria-proyectos">
-          <article class="proyecto">
-            <h3>Origin API: El Punto de Partida</h3>
-            <a href="https://github.com/AndYaN07/Origin-api">
+
+      <!-- LOGRO MAESTRO -->
+      <section id="logro-maestro" aria-labelledby="logro-title">
+        <article class="logro-card">
+          <p class="logro-kicker" aria-label="Tipo de contenido: Caso de Éxito">
+            Caso de Éxito
+          </p>
+          <h2 id="logro-title">
+            Optimización de Alto Impacto: Sistema de Gestión Veterinaria
+          </h2>
+          <div class="logro-top">
+            <div class="logro-copy">
+              <p>
+                <strong>Contexto:</strong> Durante mis prácticas (FCT), asumí el
+                mantenimiento y mejora de un sistema crítico desarrollado en PHP
+                y Vue 3.
+              </p>
+              <p>
+                <strong>El Reto:</strong> El sistema presentaba una degradación
+                severa en las búsquedas, con latencias de hasta
+                <strong>8 segundos.</strong> Identifiqué que el origen era un
+                problema de consultas <strong>N+1</strong> y una estructura de
+                base de datos no optimizada para el volumen de datos actual.
+              </p>
+            </div>
+            <div class="logro-media-wrap">
               <img
-                src="https://res.cloudinary.com/djlpirwkr/image/upload/w_800,f_auto,q_auto/v1763312265/originapi_lbbben.png"
-                alt="Representación visual abstracta de una idea o origen de código."
+                class="logro-media"
+                src="https://res.cloudinary.com/djlpirwkr/image/upload/v1777834351/ebersy_syza6e.webp"
+                alt="Logo App Ebersy para gestiones veterinarias. Aplicacion donde se hizo la mejora"
+                width="230"
+                height="230"
+                loading="lazy"
               />
-            </a>
+              <p class="logro-media-note">
+                Ebersy — Sistema integral de gestión para centros veterinarios.
+              </p>
+            </div>
+          </div>
+
+          <div class="logro-actions">
+            <p><strong>Acción:</strong></p>
             <p>
-              Mi <strong>primer <i>data set</i> propio</strong> y reto de
-              <strong><i>backend</i></strong
-              >. Diseñado para dominar la arquitectura
-              <strong>API RESTful</strong> de tareas "To-Do". Un ejercicio
-              crucial de <strong>estructura de datos</strong> y
-              <strong>comunicación cliente-servidor</strong>.
+              Ejecuté una refactorización profunda del backend, eliminando las
+              consultas redundantes y rediseñando la persistencia mediante
+              <strong>índices estratégicos y triggers en PostgreSQL.</strong>
+              Además, optimicé el estado de la aplicación en
+              <strong>Vue 3</strong> para reducir la carga innecesaria en el
+              cliente.
             </p>
-          </article>
-          <article class="proyecto">
-            <h3>SQL Project: Logística de Bases de Datos</h3>
-            <a href="https://github.com/AndYaN07/DataAnalyst/tree/main/SQL">
-            <img
-              src="https://res.cloudinary.com/djlpirwkr/image/upload/w_800,f_auto,q_auto/v1763312404/1163px-Postgresql_elephant.svg_lo2eqi.png"
-              alt="Logotipo de la base de datos PostgreSQL."
-            />
-            </a>
-            <p>
-              Proyecto entregable del Máster de Data. Consiste en la
-              <strong>exploración, manipulación y optimización</strong> de una
-              base de datos <strong>PostgreSQL</strong>. Aplicando la
-              <strong>disciplina logística</strong> del transporte al mundo
-              relacional.
-            </p>
-          </article>
-          <article class="proyecto coming-soon">
-            <h3>Proyectos Futuros: Despliegue en Curso</h3>
-            <img
-              src="https://res.cloudinary.com/djlpirwkr/image/upload/w_800,f_auto,q_auto/v1763319676/comingsoon_c5pbit.png"
-              alt="Gráfico de señalización 'Próximamente' o 'Coming Soon'."
-            />
-            <p>
-              Actualmente me encuentro trabajando en el
-              <strong>despliegue de nuevas funcionalidades</strong> y proyectos
-              que abordarán la maquetación <i>HTML5/CSS3</i> con
-              <strong>Flexbox y Grid</strong>, así como la
-              <strong>interactividad</strong> con JavaScript.
-            </p>
-          </article>
-          <article class="proyecto placeholder">
-            <h3>Placeholder: Iniciando la Secuencia</h3>
-            <p>
-              Este espacio está reservado para el próximo
-              <strong>componente de desarrollo</strong> en el <i>roadmap</i>.
-            </p>
-          </article>
-        </div>
+          </div>
+
+          <p class="logro-resultado">
+            <strong>Resultado:</strong> Logré una reducción drástica del tiempo
+            de respuesta, pasando de
+            <strong>8 segundos a 0.23ms</strong>
+            <span aria-label="mejora superior al 3000 por ciento"
+              >(mejora &gt;3000%)</span
+            >.
+          </p>
+        </article>
       </section>
-      <section id="contacto">
-        <h2>Contacto | Enviar Transmisión</h2>
-        <form class="contacto"
-        action="https://formspree.io/f/xeejwrrg"
-        method="POST">
+
+      <!-- PROYECTOS -->
+      <section id="proyectos" aria-labelledby="proyectos-title">
+        <h2 id="proyectos-title">
+          Proyectos | Ingeniería y Resolución de Problemas
+        </h2>
+        <p>
+          Una muestra de mi capacidad para diseñar arquitecturas sólidas y
+          resolver retos técnicos reales, priorizando siempre la limpieza del
+          código y la eficiencia del sistema.
+        </p>
+        <div
+          class="galeria-proyectos"
+          id="projects-grid"
+          role="list"
+          aria-label="Galería de proyectos"
+        ></div>
+      </section>
+
+      <!-- MODAL DE PROYECTO -->
+      <div
+        id="project-modal"
+        class="modal hidden"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-dialog" role="document">
+          <button
+            type="button"
+            class="modal-close"
+            id="modal-close-btn"
+            aria-label="Cerrar detalles del proyecto"
+          >
+            &times;
+          </button>
+          <img id="modal-image" src="" alt="" loading="lazy" />
+          <h3 id="modal-title"></h3>
+          <p class="modal-tech" id="modal-tech"></p>
+          <p id="modal-description"></p>
+          <p id="modal-challenge"></p>
+          <p id="modal-note"></p>
+          <a
+            id="modal-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-link"
+            >Ver repositorio</a
+          >
+        </div>
+      </div>
+
+      <!-- CONTACTO -->
+      <section id="contacto" aria-labelledby="contacto-title">
+        <h2 id="contacto-title">Contacto | Enviar Transmisión</h2>
+        <form
+          class="contacto"
+          action="https://formspree.io/f/xeejwrrg"
+          method="POST"
+          novalidate
+        >
           <label for="nombre">Nombre</label>
           <input
             type="text"
             id="nombre"
             name="nombre"
             required
+            autocomplete="name"
             placeholder="Aquí va tu nick"
           />
+
           <label for="email">Correo Electrónico</label>
           <input
             type="email"
             name="email"
             id="email"
             required
+            autocomplete="email"
             placeholder="YodaSerYo@StarMail.com"
           />
+
           <label for="mensaje">Mensaje</label>
           <textarea
             name="mensaje"
@@ -165,55 +261,87 @@
             placeholder="Ingresa el código secreto que quieres transmitir"
             rows="5"
           ></textarea>
-          <input type="text" name="_gotcha" style="display:none">
-          <button type="submit">Enviar lechuza</button>
-          <button type="reset">Obliviate</button>
+
+          <!-- Honeypot anti-spam -->
+          <input
+            type="text"
+            name="_gotcha"
+            style="display: none"
+            tabindex="-1"
+            autocomplete="off"
+          />
+
+          <div class="contacto-actions">
+            <button type="submit">Enviar lechuza</button>
+            <button type="reset" class="btn-reset">Obliviate</button>
+          </div>
         </form>
       </section>
     </main>
-    <footer>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
       <div class="footer-content">
-        <nav class="footer-links">
+        <nav class="footer-links" aria-label="Enlaces rápidos del footer">
           <h4>Enlaces rápidos</h4>
           <ul>
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#origen">Origen</a></li>
+            <li><a href="#origen">Perfil</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
+
         <div class="footer-social">
           <h4>Sígueme</h4>
           <ul>
             <li>
               <a
                 href="https://github.com/AndYaN07/AndYaN07"
-                aria-label="GitHub"
+                aria-label="Visitar perfil de GitHub de Anderson Guanche"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="https://res.cloudinary.com/djlpirwkr/image/upload/w_50,h_50/v1763317228/github-icon-1-logo-black-and-white_zyruie.png"
                   alt="Logo GitHub"
+                  width="24"
+                  height="24"
+                  loading="lazy"
                 />
               </a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/anderson-guanche-ramos"
-                aria-label="LinkedIn"
+                aria-label="Visitar perfil de LinkedIn de Anderson Guanche"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
-                  src="https://res.cloudinary.com/djlpirwkr/image/upload/w_50,h_50/v1763317242/linkedin-logo-linkedin-icon-transparent-free-png_sr1hus.png"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
                   alt="Logo LinkedIn"
+                  width="24"
+                  height="24"
+                  loading="lazy"
                 />
               </a>
             </li>
           </ul>
         </div>
       </div>
+
       <div class="footer-info">
-        <p>&copy; 2025 Mi sitio personal</p>
-        <p>Creado por <strong>Anderson Guanche</strong> | Para uso personal</p>
+        <p>
+          <small
+            >&copy; <time datetime="2025">2025</time> Anderson Guanche</small
+          >
+        </p>
+        <p><small>Creado con HTML5, CSS3 y JavaScript vanilla</small></p>
       </div>
     </footer>
+
+    <script src="projects.js" defer></script>
+    <script src="app.js" defer></script>
   </body>
 </html>
